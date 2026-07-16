@@ -1,4 +1,4 @@
-const isLoggedIn = false;
+let isLoggedIn = false;
 
 if(!isLoggedIn){
     console.log('Please login')
@@ -13,3 +13,11 @@ if(!isLoggedIn){
 // } else {
 //   console.log("please login");
 // }
+
+// let age = 20;
+// if (age >= 18) {
+//  console.log("Adult");
+// } else {
+//  console.log("Minor");
+// }
+
