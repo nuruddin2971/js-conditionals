@@ -65,3 +65,59 @@
 // if (isWeekend || isHoliday) {
 //   console.log("No work today");
 // }
+
+// Question-10
+// const username = "shojib";
+// const password = 1234;
+// if (username === "shojib" && password === 1234) {
+//   console.log("Login successful");
+// }
+
+// const usernameShojib = true;
+// const password1234 = true;
+// console.log(usernameShojib === password1234);
+
+// Question-11
+// let marks = 35;
+// if (marks > 80) {
+//   console.log("A+");
+// } else if (marks > 70) {
+//   console.log("A");
+// } else if (marks > 60) {
+//   console.log("B");
+// } else if (marks > 50) {
+//   console.log("C");
+// } else {
+//   console.log("F");
+// }
+
+// Question-12
+// let weight = 55;
+// let height = 161.544 / 100;
+// BMI = weight / (height * height);
+
+// if (BMI < 18.5) {
+//   console.log("Underweight");
+// } else if (BMI >= 18.5 && BMI <= 24.9) {
+//   console.log("Healthy Weight");
+// } else if (BMI >= 25.0 && BMI <= 29.9) {
+//   console.log("Overweight");
+// } else if (BMI >= 30.0) {
+//   console.log("Obese");
+// }
+
+// Question-13
+const month = 6;
+if (month === 1 || month === 2) {
+  console.log("Winter");
+} else if (month === 3 || month === 4) {
+  console.log("Spring");
+} else if (month === 5 || month === 6) {
+  console.log("Summer");
+} else if (month === 7 || month === 8) {
+  console.log("Monsoon");
+} else if (month === 9 || month === 10) {
+  console.log("Autumn");
+} else if (month === 11 || month === 12) {
+  console.log("Late Autumn");
+}
