@@ -107,17 +107,97 @@
 // }
 
 // Question-13
-const month = 6;
-if (month === 1 || month === 2) {
-  console.log("Winter");
-} else if (month === 3 || month === 4) {
-  console.log("Spring");
-} else if (month === 5 || month === 6) {
-  console.log("Summer");
-} else if (month === 7 || month === 8) {
-  console.log("Monsoon");
-} else if (month === 9 || month === 10) {
-  console.log("Autumn");
-} else if (month === 11 || month === 12) {
-  console.log("Late Autumn");
-}
+// const month = 6;
+// if (month === 1 || month === 2) {
+//   console.log("Winter");
+// } else if (month === 3 || month === 4) {
+//   console.log("Spring");
+// } else if (month === 5 || month === 6) {
+//   console.log("Summer");
+// } else if (month === 7 || month === 8) {
+//   console.log("Monsoon");
+// } else if (month === 9 || month === 10) {
+//   console.log("Autumn");
+// } else if (month === 11 || month === 12) {
+//   console.log("Late Autumn");
+// }
+
+// Question-14
+// const age = 15;
+// const hasID = true;
+// if (age >= 18 && hasID) {
+//   console.log("Eligible for vote");
+// } else {
+//   console.log("Not-eligible for vote");
+// }
+
+// Question-15
+// const isLoggedIn = true;
+// const isAdmin = true;
+
+// if (!isLoggedIn) {
+//   console.log("Please Login");
+// } else if (isLoggedIn && isAdmin) {
+//   console.log("Admin Dashboard");
+// } else if (isLoggedIn && !isAdmin) {
+//   console.log("User Dashboard");
+// }
+
+// Question-16
+// let number = 98;
+
+// number % 2 === 0 ? console.log("Even number") : console.log("Odd number");
+
+// Question-17
+// let age = 10;
+
+// age > 18 ? console.log("Adult") : console.log("Minor");
+
+// Question-18
+// let price = 10001;
+
+// price > 1000 ? console.log("Expensive") : console.log("Affordable");
+
+// Question-19
+// let hasPermission = true;
+
+// if (!hasPermission) {
+//   console.log("Access Denied");
+// }
+
+// Question-20
+// let isOnline = false;
+// if (!isOnline) {
+//   console.log("User is offline");
+// }
+
+// Question-21
+// const cartTotal = 1000;
+// const isMember = false;
+
+// if (cartTotal > 1000 && isMember) {
+//   const discount = 20;
+//   const discountAmount = (cartTotal / 100) * discount;
+//   const payment = cartTotal - discountAmount;
+//   console.log(payment);
+// } else if (cartTotal > 1000) {
+//   const discount = 10;
+//   const discountAmount = (cartTotal / 100) * discount;
+//   const payment = cartTotal - discountAmount;
+//   console.log(payment);
+// } else {
+//   console.log("no discount");
+// }
+
+// Question-22
+// const username = "Shojib";
+// const password = 1234;
+// const isAdmin = true;
+
+// if (username === "Shojib" && password === 1234 && isAdmin) {
+//   console.log("Login as a admin");
+// } else if (username === "Shojib" && password === 1234 && !isAdmin) {
+//   console.log("Login as a user");
+// } else {
+//   console.log("Invalid");
+// }
